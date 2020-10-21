@@ -49,6 +49,22 @@ class PartTwo extends Component {
               </p>
             </div>
           </div>
+          <h1>Employment</h1>
+          <div className="qual">
+            <img src={require('../../Images/ttr.png')} alt="the training room" />
+            <div>
+              <h4>The Training Room</h4>
+              <p>
+                <b>
+                  <i>IT Sales Executive</i>
+                </b>
+              </p>
+              <p>
+                Selling training courses and career opportunities amongst the IT sector - including
+                Web Development, Software Development, Cyber Security, Technicians and Networking.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     );
