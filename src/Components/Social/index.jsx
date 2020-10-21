@@ -20,6 +20,7 @@ const Social = () => {
             <i class="fab fa-github"></i>
           </a>
         </div>
+        <p>Copyright © 2020 Dan burton. All Rights Reserved</p>
       </div>
     </div>
   );
