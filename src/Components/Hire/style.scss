@@ -1,0 +1,60 @@
+.hire-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: inset 0px 0px 10px 0px #272829;
+  animation-name: appear;
+  animation-duration: 20s;
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: gray;
+    width: 80%;
+  }
+  .hire {
+    background-color: #ddd92a;
+    width: 90%;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  img {
+    width: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hire-me {
+    padding: 1.5rem;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hire:hover {
+    background-color: green;
+    transition: 0.3s;
+    a {
+      color: white;
+    }
+  }
+}

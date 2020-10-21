@@ -1,0 +1,57 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #e7a53e;
+  border-radius: 2rem 2rem 0 0;
+  // animation-name: appear;
+  // animation-duration: 20s;
+  h1 {
+    color: #fafdf6;
+  }
+}
+
+.social-link {
+  width: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  .facebook {
+    color: #3b5998;
+  }
+  .linked-in {
+    color: #0072b1;
+  }
+  .insta {
+    color: #e1306c;
+  }
+  .github {
+    color: white;
+  }
+  .icon {
+    margin: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .facebook:hover {
+    color: white;
+  }
+  .linked-in:hover {
+    color: white;
+  }
+  .insta:hover {
+    color: white;
+  }
+  .github:hover {
+    color: white;
+  }
+}
