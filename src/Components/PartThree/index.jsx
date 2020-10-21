@@ -50,9 +50,10 @@ class PartThree extends Component {
                   <p>
                     At the start of 2019, I decided to go travelling in Thailand. It was a truly
                     incredible experience and during my time I visited many islands, met people from
-                    around the world, many adventure days and of course - went to many bars. During
-                    this time it gave me a real chance to reflect on what I wanted to do when I got
-                    back home - which is when I started looking into roles in tech.
+                    around the world, many adventure days and of course - went to many bars.
+                    However, during my time in Asia, it gave me a real chance to reflect on what I
+                    wanted to do when I got back home - which is when I started looking into roles
+                    in tech.
                   </p>
                 </div>
                 <div className="time-slot">
