@@ -19,7 +19,6 @@ class PartTwo extends Component {
           <p>
             <b>Unpopular Opinion:</b> Cheese is nasty...
           </p>
-
           <h1>Skills</h1>
           <div className="language-display">
             <img src={require('../../Images/html.png')} alt="html" />
@@ -32,6 +31,7 @@ class PartTwo extends Component {
             <img src={require('../../Images/github.png')} alt="github" />
             <img src={require('../../Images/jquery2.png')} alt="jquery" />
           </div>
+
           <h1>Qualification</h1>
           <div className="qual">
             <img src={require('../../Images/ironhack.png')} alt="ironhack" />

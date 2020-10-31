@@ -7,9 +7,7 @@ class PartOne extends Component {
       <div>
         <div className="option-selected">
           <div className="option-box part-one">
-            <h2>See...</h2>
-            <img src={require('../../Images/dan-gif.gif')} alt="gif" />
-            <h3>I told you I was a Web Developer! </h3>
+            <h1>I told you I was a developer!</h1>
           </div>
         </div>
       </div>

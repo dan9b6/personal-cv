@@ -2,39 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-button {
-  background-color: #eae151;
-  border-radius: 2rem;
-  width: 85%;
-  outline: none;
-  margin-bottom: 1.2rem;
-}
-
-.button-option {
-  padding: 20px 30px;
-  text-transform: uppercase;
-  overflow: hidden;
-  transform: 0.5s;
-  letter-spacing: 4px;
-  display: block;
-  animation-name: appear;
-  animation-duration: 20s;
-  p {
+  margin-bottom: 2rem;
+  button {
+    background-color: rgb(0, 0, 255);
+    color: whitesmoke;
     font-weight: bold;
-  }
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 0, 255);
+    width: 70%;
+    outline: none;
+    margin-bottom: 1.2rem;
+    padding: 15px 0;
+    font-weight: bold;
   }
 }
 

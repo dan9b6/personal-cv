@@ -29,7 +29,7 @@ class Cv extends Component {
               });
             }}
           >
-            <p>Few Seconds..</p>
+            <p>No time at all (5s)</p>
           </button>
           {this.state.showComponentOne ? <PartOne /> : null}
           <button
@@ -42,7 +42,7 @@ class Cv extends Component {
               });
             }}
           >
-            <p>Few Minutes..</p>
+            <p>Just a minute! (60s)</p>
           </button>
           {this.state.showComponentTwo ? <PartTwo /> : null}
           <button
@@ -55,7 +55,7 @@ class Cv extends Component {
               });
             }}
           >
-            <p>Grab a cuppa..</p>
+            <p>All freakin’ day (5min)</p>
           </button>
         </div>
         {this.state.showComponentThree ? <PartThree /> : null}

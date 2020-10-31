@@ -11,20 +11,34 @@ function Skill() {
   return (
     <div className="skill-row">
       <div className="skills">
-        <div className="skills-box" data-aos="fade-left">
+        <h1>What can I offer?</h1>
+        <div className="skills-box" data-aos="fade-up">
           <i class="fas fa-desktop"></i>
-          <h3>Responsive</h3>
-          <p>My layouts are responsive and look great on all shapes and sizes.</p>
+          <h3>Try before you buy</h3>
+          <p>
+            I’m so eager to prove my worth I’ll give you two weeks free (well, in exchange for a few
+            cuppas and regular biscuits). If you really don’t think I’m a good match at the end, we
+            part ways, no hard feelings. But, if you see the potential, think about making me
+            permanent.
+          </p>
         </div>
         <div className="skills-box" data-aos="fade-up">
           <i class="fas fa-lightbulb"></i>
-          <h3>Innovative</h3>
-          <p>All my designs and websites are built with creative flair.</p>
+          <h3>Enthusiasm...</h3>
+          <p>
+            ...By the bucket load. I want this. It will take hard work and I know I will spend the
+            rest of my life learning, but this is what I want for now and my future. I’m open minded
+            and enthusiastic to learn and improve.
+          </p>
         </div>
-        <div className="skills-box" data-aos="fade-right">
+        <div className="skills-box" data-aos="fade-up">
           <i class="fas fa-bullseye"></i>
-          <h3>Targetted to the Client</h3>
-          <p>The web applications that I create are tailored to each client and target audience.</p>
+          <h3>Innovation</h3>
+          <p>
+            I hold a big desire to be at the forefront of innovation, which is one of the main
+            reasons I chose to complete Ironhack, learning React. I can talk more about this in
+            detail when we meet.
+          </p>
         </div>
       </div>
     </div>

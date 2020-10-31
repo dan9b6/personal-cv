@@ -4,25 +4,22 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  border-radius: 2rem;
-  box-shadow: inset 0px 0px 10px 0px #272829;
-  animation-name: appear;
-  animation-duration: 20s;
-  h2 {
-    color: white;
+  h1 {
+    margin-bottom: 2rem;
   }
   h3 {
-    color: gray;
     width: 80%;
+    margin-bottom: 2rem;
   }
   .hire {
-    background-color: #ddd92a;
+    background-color: rgb(255, 0, 255);
+    font-weight: bold;
+    font-size: 1.4rem;
     width: 90%;
-    padding: 2rem 3rem;
+    padding: 1.5rem 3rem;
     margin-bottom: 2rem;
-    border-radius: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    border-radius: 20px;
+    box-shadow: -5px 10px black;
     a {
       text-decoration: none;
       color: black;
