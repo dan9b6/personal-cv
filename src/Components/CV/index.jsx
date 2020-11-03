@@ -18,7 +18,7 @@ class Cv extends Component {
   render() {
     return (
       <div>
-        <div className="cv-button-options">
+        <div className="cv-button-options mobile">
           <button
             className="button-option"
             onClick={() => {
@@ -57,8 +57,54 @@ class Cv extends Component {
           >
             <p>All freakin’ day (5min)</p>
           </button>
+          {this.state.showComponentThree ? <PartThree /> : null}
         </div>
-        {this.state.showComponentThree ? <PartThree /> : null}
+
+        <div className="">
+          <div className="cv-button-options desktop">
+            <button
+              className="button-option"
+              onClick={() => {
+                this.setState({
+                  showComponentOne: !this.state.showComponentOne,
+                  showComponentTwo: false,
+                  showComponentThree: false,
+                });
+              }}
+            >
+              <p>No time at all (5s)</p>
+            </button>
+            <button
+              className="button-option"
+              onClick={() => {
+                this.setState({
+                  showComponentTwo: !this.state.showComponentTwo,
+                  showComponentOne: false,
+                  showComponentThree: false,
+                });
+              }}
+            >
+              <p>Just a minute! (60s)</p>
+            </button>
+            <button
+              className="button-option"
+              onClick={() => {
+                this.setState({
+                  showComponentThree: !this.state.showComponentThree,
+                  showComponentOne: false,
+                  showComponentTwo: false,
+                });
+              }}
+            >
+              <p>All freakin’ day (5min)</p>
+            </button>
+          </div>
+          <div className="desktop">
+            {this.state.showComponentOne ? <PartOne /> : null}
+            {this.state.showComponentTwo ? <PartTwo /> : null}
+            {this.state.showComponentThree ? <PartThree /> : null}
+          </div>
+        </div>
       </div>
     );
   }

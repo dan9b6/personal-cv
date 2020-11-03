@@ -1,3 +1,7 @@
+h1 {
+  margin-top: 1rem;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -10,7 +14,7 @@
     text-align: center;
     width: 70%;
     color: white;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     i {
       font-size: 4rem;
       margin-bottom: 1rem;
@@ -28,26 +32,18 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and(min-width: 700px) {
   .skills {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 3rem;
     .skills-box {
-      width: 50%;
-      margin: 0 2rem;
-    }
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .skill-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .skills {
-      display: flex;
-      flex-direction: row;
-      width: 80vw;
+      width: 20%;
+      p {
+        font-size: 10px;
+      }
     }
   }
 }

@@ -47,33 +47,24 @@
 @media screen and (min-width: 700px) {
   .projects {
     .box-position {
-      width: 70%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      .box {
+        width: 20%;
+        padding: 0;
+        p {
+          font-size: 12px;
+          text-align: justify;
+        }
+        a {
+          padding: 10 20px;
+          font-size: 10px;
+        }
+      }
     }
     .me {
       width: 30%;
-    }
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .projects {
-    .box-position {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      width: 80%;
-      .box {
-        margin: 2rem 1.5rem;
-        p {
-          text-align: left;
-        }
-      }
-      .box:hover {
-        opacity: 1;
-        transition: 0.5s;
-        background-color: #fafdf6;
-        color: #272829;
-      }
     }
   }
 }

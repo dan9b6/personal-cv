@@ -9,9 +9,9 @@ function Skill() {
   }, []);
 
   return (
-    <div className="skill-row">
+    <div>
+      <h1>What can I offer?</h1>
       <div className="skills">
-        <h1>What can I offer?</h1>
         <div className="skills-box" data-aos="fade-up">
           <i class="fas fa-desktop"></i>
           <h3>Try before you buy</h3>
