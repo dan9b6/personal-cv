@@ -22,7 +22,7 @@ function Skill() {
             permanent.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up">
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="300">
           <i class="fas fa-lightbulb"></i>
           <h3>Enthusiasm...</h3>
           <p>
@@ -31,7 +31,7 @@ function Skill() {
             and enthusiastic to learn and improve.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up">
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="600">
           <i class="fas fa-bullseye"></i>
           <h3>Innovation</h3>
           <p>

@@ -44,12 +44,14 @@
 
 @media screen and (min-width: 1000px) {
   .landing {
+    margin-bottom: 0;
     .desktop-img {
       margin: 0 auto;
       max-width: 1200px;
     }
     .intro {
       position: absolute;
+      margin-bottom: 0rem;
       margin-left: 5rem;
       width: 500px;
       top: 20%;
@@ -57,6 +59,9 @@
       h1 {
         font-size: 3rem;
         text-align: start;
+      }
+      h5 {
+        font-size: 16px;
       }
     }
   }

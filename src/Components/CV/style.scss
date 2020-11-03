@@ -46,8 +46,15 @@
       width: 160px;
       padding: 10px 0;
       p {
-        font-size: 10px;
+        font-size: 12px;
       }
+    }
+    button:hover {
+      transition: 0.5s;
+      border-radius: 0;
+      border: 2px solid white;
+      background-color: white;
+      color: black;
     }
   }
 }
