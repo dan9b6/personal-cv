@@ -13,7 +13,7 @@ function Skill() {
       <h1>What can I offer?</h1>
       <div className="skills">
         <div className="skills-box" data-aos="fade-up">
-          <i class="fas fa-desktop"></i>
+          <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
           <h3>Try before you buy</h3>
           <p>
             I’m so eager to prove my worth I’ll give you two weeks free (well, in exchange for a few
@@ -23,7 +23,7 @@ function Skill() {
           </p>
         </div>
         <div className="skills-box" data-aos="fade-up" data-aos-delay="300">
-          <i class="fas fa-lightbulb"></i>
+          <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
           <h3>Enthusiasm...</h3>
           <p>
             ...By the bucket load. I want this. It will take hard work and I know I will spend the
@@ -32,7 +32,7 @@ function Skill() {
           </p>
         </div>
         <div className="skills-box" data-aos="fade-up" data-aos-delay="600">
-          <i class="fas fa-bullseye"></i>
+          <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
           <h3>Innovation</h3>
           <p>
             I hold a big desire to be at the forefront of innovation, which is one of the main

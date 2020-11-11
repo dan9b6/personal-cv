@@ -16,6 +16,13 @@ function Hire() {
             <i>"I may not have 100 years of experience, but I am 100% ready to be a developer!"</i>
           </h1>
           <h3>Click on the really big and ethusiastic button to get in touch</h3>
+          <div className="columns">
+            <div className="col-3"></div>
+            <div className="col-3"></div>
+            <div className="col-3">
+              <img className="point-side" src={require('../../Images/point-side.png')} alt="me" />
+            </div>
+          </div>
           <div className="hire">
             <a
               className="hire-btn"

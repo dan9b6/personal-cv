@@ -4,6 +4,17 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .col-3 {
+      width: 50%;
+      img {
+        width: 150px;
+      }
+    }
+  }
   h1 {
     margin-bottom: 2rem;
   }
@@ -25,11 +36,6 @@
       font-weight: bold;
     }
   }
-  img {
-    width: 50%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  }
 }
 
 @media screen and (min-width: 700px) {
@@ -42,15 +48,25 @@
   .hire-me {
     padding: 1rem;
     width: 50%;
+    .columns {
+      .col-3 {
+        img {
+          width: 00px;
+        }
+      }
+    }
   }
 }
 
 @media screen and (min-width: 1000px) {
   .hire:hover {
-    background-color: green;
-    transition: 0.3s;
+    transition: 0.5s;
+    border-radius: 0;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
     a {
-      color: white;
+      color: black;
     }
   }
 }

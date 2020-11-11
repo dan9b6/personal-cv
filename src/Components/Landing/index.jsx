@@ -4,7 +4,7 @@ import './style.scss';
 const Landing = () => {
   return (
     <div className="landing">
-      <img className="mobile-img" src={require('../../Images/me-mobile.jpg')} alt="me" />
+      <img src={require('../../Images/me-mobile.jpg')} alt="me" />
       <div className="intro">
         <h1>Hello. I’m Dan. I’m an aspiring web developer looking for my first role.</h1>
         <h5>

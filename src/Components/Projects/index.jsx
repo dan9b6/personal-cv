@@ -13,6 +13,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <img className="point-down" src={require('../../Images/point-down.png')} alt="me" />
         <div className="projects">
           <h1>Projects!</h1>
           <div className="box-position">
