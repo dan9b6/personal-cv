@@ -21,7 +21,13 @@
   h3 {
     margin-bottom: 2rem;
   }
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
   .hire {
+    margin: 0 auto;
     background-color: rgb(255, 0, 255);
     font-weight: bold;
     font-size: 1.4rem;
@@ -30,11 +36,6 @@
     margin-bottom: 2rem;
     border-radius: 20px;
     box-shadow: -5px 10px black;
-    a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-    }
   }
 }
 

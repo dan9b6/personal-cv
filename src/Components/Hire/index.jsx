@@ -23,14 +23,12 @@ function Hire() {
               <img className="point-side" src={require('../../Images/point-side.png')} alt="me" />
             </div>
           </div>
-          <div className="hire">
-            <a
-              className="hire-btn"
-              href="mailto:email@address.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan"
-            >
-              Click hear to hire your next developer!
-            </a>
-          </div>
+          <a
+            className="hire-btn"
+            href="mailto:email@address.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan"
+          >
+            <div className="hire">Click hear to hire your next developer!</div>
+          </a>
         </div>
       </div>
     </div>

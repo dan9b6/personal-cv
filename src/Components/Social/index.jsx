@@ -5,6 +5,7 @@ const Social = () => {
   return (
     <div>
       <div className="social">
+        <img className="point-side" src={require('../../Images/wave.gif')} alt="me" />
         <h1>Say Hi!</h1>
         <div className="social-link">
           <a className="facebook icon" href="https://www.facebook.com/dan9b6">
