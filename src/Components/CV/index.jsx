@@ -60,44 +60,46 @@ class Cv extends Component {
           {this.state.showComponentThree ? <PartThree /> : null}
         </div>
 
-        <div className="">
-          <div className="cv-button-options desktop">
-            <button
-              className="button-option"
-              onClick={() => {
-                this.setState({
-                  showComponentOne: !this.state.showComponentOne,
-                  showComponentTwo: false,
-                  showComponentThree: false,
-                });
-              }}
-            >
-              <p>No time at all (5s)</p>
-            </button>
-            <button
-              className="button-option"
-              onClick={() => {
-                this.setState({
-                  showComponentTwo: !this.state.showComponentTwo,
-                  showComponentOne: false,
-                  showComponentThree: false,
-                });
-              }}
-            >
-              <p>Just a minute! (60s)</p>
-            </button>
-            <button
-              className="button-option"
-              onClick={() => {
-                this.setState({
-                  showComponentThree: !this.state.showComponentThree,
-                  showComponentOne: false,
-                  showComponentTwo: false,
-                });
-              }}
-            >
-              <p>All freakin’ day (5min)</p>
-            </button>
+        <div>
+          <div className="wrapper">
+            <div className="cv-button-options desktop">
+              <button
+                className="button-option"
+                onClick={() => {
+                  this.setState({
+                    showComponentOne: !this.state.showComponentOne,
+                    showComponentTwo: false,
+                    showComponentThree: false,
+                  });
+                }}
+              >
+                <p>No time at all (5s)</p>
+              </button>
+              <button
+                className="button-option"
+                onClick={() => {
+                  this.setState({
+                    showComponentTwo: !this.state.showComponentTwo,
+                    showComponentOne: false,
+                    showComponentThree: false,
+                  });
+                }}
+              >
+                <p>Just a minute! (60s)</p>
+              </button>
+              <button
+                className="button-option"
+                onClick={() => {
+                  this.setState({
+                    showComponentThree: !this.state.showComponentThree,
+                    showComponentOne: false,
+                    showComponentTwo: false,
+                  });
+                }}
+              >
+                <p>All freakin’ day (5min)</p>
+              </button>
+            </div>
           </div>
           <div className="desktop">
             {this.state.showComponentOne ? <PartOne /> : null}

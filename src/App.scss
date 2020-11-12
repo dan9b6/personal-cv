@@ -5,7 +5,6 @@
 }
 
 html {
-  margin: 0 auto;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
   background-color: rgb(0, 0, 255);
   font-family: 'Lato', sans-serif;
   color: white;
-  max-width: 1500px;
+  // max-width: 1500px;
 }
 
 h1 {
@@ -28,4 +27,9 @@ h1 {
 
 p {
   font-size: 0.9rem;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
 }

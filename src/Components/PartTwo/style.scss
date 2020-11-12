@@ -18,24 +18,27 @@
 
 @media screen and (min-width: 700px) {
   .part-two {
-    display: flex;
-    justify-content: space-evenly;
-    .part-two-box {
-      width: 20%;
-      h1 {
-        margin-top: 2rem;
-        font-size: 1.2rem;
-      }
-      h4 {
-        margin-bottom: 1rem;
-      }
-      p {
-        text-align: center;
-        font-size: 12px;
-      }
-      .language-display {
-        img {
-          height: 20px;
+    .wrapper {
+      display: flex;
+      justify-content: space-evenly;
+
+      .part-two-box {
+        width: 20%;
+        h1 {
+          margin-top: 2rem;
+          font-size: 1.2rem;
+        }
+        h4 {
+          margin-bottom: 1rem;
+        }
+        p {
+          text-align: center;
+          font-size: 12px;
+        }
+        .language-display {
+          img {
+            height: 20px;
+          }
         }
       }
     }

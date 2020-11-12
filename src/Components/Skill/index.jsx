@@ -11,7 +11,7 @@ function Skill() {
   return (
     <div>
       <h1>What can I offer?</h1>
-      <div className="skills">
+      <div className="skills wrapper">
         <div className="skills-box" data-aos="fade-up">
           <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
           <h3>Try before you buy</h3>

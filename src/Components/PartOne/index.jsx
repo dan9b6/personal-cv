@@ -7,7 +7,9 @@ class PartOne extends Component {
       <div>
         <div className="option-selected">
           <div className="option-box part-one">
-            <h1>I told you I was a developer!</h1>
+            <div className="wrapper">
+              <h1>I told you I was a developer!</h1>
+            </div>
           </div>
         </div>
       </div>
