@@ -30,6 +30,26 @@ class PartThree extends Component {
                   </div>
                   <div class="container left">
                     <div class="content">
+                      <h2>2002</h2>
+                      <p>
+                        I went to my first ever football. This was my first love. However, being an
+                        Arsenal fan has definitely become more painful over the years. Hoping this
+                        won't be a dealbreaker!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container right">
+                    <div class="content">
+                      <h2>2002</h2>
+                      <p>
+                        I went to my first ever football. This was my first love. However, being an
+                        Arsenal fan has definitely become more painful over the years. Hoping this
+                        won't be a dealbreaker!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container left">
+                    <div class="content">
                       <h2>2011</h2>
                       <p>
                         I was (and still) obsessed with football growing up. Fortunately, I had the
@@ -39,6 +59,17 @@ class PartThree extends Component {
                     </div>
                   </div>
                   <div class="container right">
+                    <div class="content">
+                      <h2>2012</h2>
+                      <p>
+                        I had finished my GCSE's! I managed to get 11 GCSE's all A-C - including an
+                        A in Maths, Biology and P.E. So to celebrate my exams, me and a few friends
+                        went to Cardiff for the Olympic Games to watch GB take on South Korea.
+                        Unfortunately they lost 5-4 on penalties.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container left">
                     <div class="content">
                       <h2>2015</h2>
                       <p>
@@ -54,7 +85,7 @@ class PartThree extends Component {
                       </p>
                     </div>
                   </div>
-                  <div class="container left">
+                  <div class="container right">
                     <div class="content">
                       <h2>2019</h2>
                       <p>
@@ -67,7 +98,7 @@ class PartThree extends Component {
                       </p>
                     </div>
                   </div>
-                  <div class="container right">
+                  <div class="container left">
                     <div class="content">
                       <h2>2019</h2>
                       <p>
@@ -82,27 +113,39 @@ class PartThree extends Component {
                       </p>
                     </div>
                   </div>
-                  <div class="container left">
+                  <div class="container right">
                     <div class="content">
                       <h2>2020</h2>
                       <p>
                         <b>
                           I graduated as a Web Developer through{' '}
-                          <a href="https://www.ironhack.com">Ironhack</a> Tech Bootcamp - Lisbon.
+                          <a href="https://www.ironhack.com">Ironhack Tech Bootcamp </a> - Lisbon.
                         </b>{' '}
-                        During the course I covered a number of technologies and languages. Such as
-                        HTML,CSS,JS, ReactJS, NodeJS and many other skills which you can find on
-                        this{' '}
-                        <span className="lnk-btn">
-                          <a href="https://www.linkedin.com/in/daniel-burton-654ba4180/">link.</a>
-                        </span>
+                        During the course I covered a number of technologies and languages. Such as:
+                        <ul>
+                          <br />
+                          <li>HTML</li>
+                          <li>CSS / SASS</li>
+                          <li>Javascript</li>
+                          <li>React JS</li>
+                          <li>Node JS</li>
+                          <li>Mongo DB</li>
+                          <li>Express</li>
+                          <li>
+                            and many other skills which you can find on this{' '}
+                            <a href="https://www.linkedin.com/in/daniel-burton-654ba4180/">
+                              link.{' '}
+                            </a>
+                          </li>
+                        </ul>
+                        <br />
                         This whole experience was a real eye-opener for me. I never thought it would
                         be possible to learn as much as I did during this bootcamp and leave with
                         three fully functional projects.
                       </p>
                     </div>
                   </div>
-                  <div class="container right">
+                  <div class="container left">
                     <div class="content">
                       <h2>Now...</h2>
                       <p>

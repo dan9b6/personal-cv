@@ -74,6 +74,10 @@
   position: relative;
   border-radius: 6px;
   max-width: 500px;
+  a {
+    text-decoration: none;
+    color: rgba(255, 0, 255, 1);
+  }
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

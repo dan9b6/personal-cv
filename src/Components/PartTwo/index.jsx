@@ -8,7 +8,7 @@ class PartTwo extends Component {
         <div className="option-box part-two">
           <div className="wrapper">
             <div className="part-two-box">
-              <h1>Bio</h1>
+              <h2>Bio</h2>
               <p>
                 <b>Name:</b> Daniel Burton
               </p>
@@ -23,7 +23,7 @@ class PartTwo extends Component {
               </p>
             </div>
             <div className="part-two-box">
-              <h1>Skills</h1>
+              <h2>Skills</h2>
               <div className="language-display">
                 <img src={require('../../Images/html.png')} alt="html" />
                 <img src={require('../../Images/css.png')} alt="css" />
@@ -38,7 +38,7 @@ class PartTwo extends Component {
               </div>
             </div>
             <div className="part-two-box">
-              <h1>Qualification</h1>
+              <h2>Qualification</h2>
               <div className="qual">
                 <img src={require('../../Images/ironhack.png')} alt="ironhack" />
                 <div>
@@ -57,7 +57,7 @@ class PartTwo extends Component {
               </div>
             </div>
             <div className="part-two-box">
-              <h1>Employment</h1>
+              <h2>Employment</h2>
               <div className="qual">
                 <img src={require('../../Images/ttr.png')} alt="the training room" />
                 <div>
