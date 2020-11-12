@@ -36,7 +36,21 @@
         }
         .language-display {
           img {
-            height: 20px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .part-two {
+    .wrapper {
+      .part-two-box {
+        .language-display {
+          img {
+            height: 40px;
           }
         }
       }

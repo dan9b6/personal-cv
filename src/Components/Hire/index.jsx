@@ -27,7 +27,7 @@ function Hire() {
             className="hire-btn"
             href="mailto:email@address.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan"
           >
-            <div className="hire">Click hear to hire your next developer!</div>
+            <div className="hire">Click here to hire your next developer!</div>
           </a>
         </div>
       </div>

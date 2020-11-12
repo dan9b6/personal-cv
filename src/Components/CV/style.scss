@@ -7,14 +7,14 @@
   button {
     background-color: rgb(0, 0, 255);
     color: whitesmoke;
-    font-weight: bold;
     border-radius: 15px;
     border: 2px solid rgb(255, 0, 255);
     width: 70%;
     outline: none;
     margin-bottom: 1.2rem;
     padding: 15px 0;
-    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
   }
   .option-selected {
     display: flex;
@@ -39,7 +39,7 @@
     display: none;
   }
   .cv-button-options {
-    width: 600px;
+    width: 700px;
     padding: 0;
     margin-top: -1rem;
   }
@@ -49,15 +49,13 @@
     justify-content: space-evenly;
     max-width: 1500px;
     button {
-      width: 160px;
+      width: 200px;
       padding: 10px 0;
     }
     button:hover {
       transition: 0.5s;
-      border-radius: 0;
-      border: 2px solid white;
-      background-color: white;
-      color: black;
+      background-color: rgb(255, 0, 255);
+      color: #000025;
     }
   }
 }

@@ -27,6 +27,9 @@
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
+  h2 {
+    margin-bottom: 2rem;
+  }
 }
 
 /* The circles on the timeline */
@@ -38,7 +41,7 @@
   right: -3px;
   background-color: white;
   border: 1px solid rgba(255, 0, 255, 1);
-  top: 26px;
+  top: -7px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -46,10 +49,17 @@
 /* Place the container to the left */
 .left {
   left: 0;
+  h2,
+  p {
+    text-align: right;
+  }
 }
 
 /* Place the container to the right */
 .right {
+  h2 {
+    text-align: left;
+  }
   left: 50%;
 }
 
@@ -83,9 +93,10 @@
   /* Full-width containers */
   .container {
     width: 100%;
-    padding-left: 70px;
     padding-right: 25px;
-    // max-width: 500px;
+    h2 {
+      text-align: center;
+    }
   }
 
   /* Make sure that all arrows are pointing leftwards */
@@ -100,6 +111,7 @@
   .left::after,
   .right::after {
     left: 22px;
+    text-align: center;
   }
 
   /* Make all right containers behave like the left ones */

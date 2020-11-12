@@ -31,7 +31,7 @@ class Projects extends Component {
                 <a href="https://github.com/dan9b6/PuffDaddy">See the code</a>
               </div>
 
-              <div className="box" data-aos="fade-up" data-aos-delay="300">
+              <div className="box" data-aos="fade-up" data-aos-delay="200">
                 <img src={require('../../Images/foothead.png')} alt="foothead" />
                 <h3>Footheads</h3>
                 <p>
@@ -45,7 +45,7 @@ class Projects extends Component {
                 <a href="https://github.com/adwpenalva/footheads">See the code</a>
               </div>
 
-              <div className="box" data-aos="fade-up" data-aos-delay="600">
+              <div className="box" data-aos="fade-up" data-aos-delay="400">
                 <img src={require('../../Images/ironcode.png')} alt="puffdaddy" />
                 <h3>IronCode</h3>
                 <p>

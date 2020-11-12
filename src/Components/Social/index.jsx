@@ -5,8 +5,14 @@ const Social = () => {
   return (
     <div>
       <div className="social">
-        <img className="point-side" src={require('../../Images/wave.gif')} alt="me" />
-        <h1>Say Hi!</h1>
+        <div className="columns">
+          <div className="col-2">
+            <h1>Say Hi!</h1>
+          </div>
+          <div className="col-2">
+            <img className="point-side" src={require('../../Images/wave.gif')} alt="me" />
+          </div>
+        </div>
         <div className="social-link">
           <a className="facebook icon" href="https://www.facebook.com/dan9b6">
             <i class="fab fa-facebook"></i>
@@ -21,7 +27,7 @@ const Social = () => {
             <i class="fab fa-github"></i>
           </a>
         </div>
-        <p>Copyright © 2020 Dan burton. All Rights Reserved</p>
+        <p>Copyright © 2020 Dan Burton. All Rights Reserved</p>
       </div>
     </div>
   );
