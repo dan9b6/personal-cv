@@ -13,6 +13,11 @@ const Social = () => {
             <img className="point-side" src={require('../../Images/wave.gif')} alt="me" />
           </div>
         </div>
+        <div className="columns">
+          <p>Daniel Burton</p>
+          <p>07956107973</p>
+          <p>email@danburts.co.uk</p>
+        </div>
         <div className="social-link">
           <a className="facebook icon" href="https://www.facebook.com/dan9b6">
             <i class="fab fa-facebook"></i>
