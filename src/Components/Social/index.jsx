@@ -5,7 +5,7 @@ const Social = () => {
   return (
     <div>
       <div className="social">
-        <h1>Check out my social links</h1>
+        <h1>Say Hi!</h1>
         <div className="social-link">
           <a className="facebook icon" href="https://www.facebook.com/dan9b6">
             <i class="fab fa-facebook"></i>

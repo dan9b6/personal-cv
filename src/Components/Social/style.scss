@@ -30,16 +30,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .facebook:hover {
-    color: white;
-  }
-  .linked-in:hover {
-    color: white;
-  }
-  .insta:hover {
-    color: white;
-  }
-  .github:hover {
-    color: white;
+  i:hover {
+    color: rgb(255, 0, 255);
   }
 }
