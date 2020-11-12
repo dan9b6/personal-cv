@@ -15,7 +15,7 @@ function Hire() {
           <h1>
             <i>"I may not have 100 years of experience, but I am 100% ready to be a developer!"</i>
           </h1>
-          <h3>Click on the really big and ethusiastic button to get in touch</h3>
+          <h3>Click on the really big and enthusiastic button to get in touch</h3>
           <div className="columns">
             <div className="col-3"></div>
             <div className="col-3"></div>

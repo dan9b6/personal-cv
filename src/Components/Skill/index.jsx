@@ -22,8 +22,8 @@ function Skill() {
             permanent.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up" data-aos-delay="300">
-          <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="200">
+          <img className="sign" src={require('../../Images/excited.gif')} alt="me" />
           <h3>Enthusiasm...</h3>
           <p>
             ...By the bucket load. I want this. It will take hard work and I know I will spend the
@@ -31,7 +31,7 @@ function Skill() {
             and enthusiastic to learn and improve.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up" data-aos-delay="600">
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="400">
           <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
           <h3>Innovation</h3>
           <p>
