@@ -23,13 +23,13 @@
 @media screen and (min-width: 700px) {
   .landing {
     background-image: url('../../Images/me-desktop.jpg');
-    background-size: 1000px;
+    // background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     max-width: 1500px;
     height: 550px;
-    box-shadow: inset 0px 0px 40px 20px blue;
+    box-shadow: inset 0px 0px 40px 40px blue;
     img {
       display: none;
     }
@@ -55,8 +55,13 @@
 @media screen and (min-width: 1000px) {
   .landing {
     margin: 0 auto;
-    background-size: 1400px;
+    padding-top: 0;
+    background-size: 1700px;
+    width: 95%;
+    height: 600px;
     max-width: 1500px;
+    box-shadow: inset 0px 0px 25px 20px blue;
+
     img {
       display: none;
     }
