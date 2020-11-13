@@ -23,7 +23,7 @@
 @media screen and (min-width: 700px) {
   .landing {
     background-image: url('../../Images/me-desktop.jpg');
-    // background-size: 1000px;
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -57,7 +57,7 @@
     margin: 0 auto;
     padding-top: 0;
     background-size: 1700px;
-    width: 95%;
+    width: 90%;
     height: 600px;
     max-width: 1500px;
     box-shadow: inset 0px 0px 25px 20px blue;
@@ -68,7 +68,6 @@
     .intro {
       position: relative;
       top: 25%;
-      left: 100px;
       width: 600px;
       h1,
       h5 {
