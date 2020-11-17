@@ -17,45 +17,53 @@ class PartThree extends Component {
                         The year I was born. The year Take That separated and the year 'Dolly' the
                         sheep was born. <b>What a time to be alive!</b>
                       </p>
+                      <img src={require('../../Images/baby-me.png')} alt="sheep" />
                     </div>
                   </div>
                   <div class="container right">
                     <div class="content">
                       <h2>2000</h2>
                       <p>
-                        My first day at school. Who could of known I would end up here coding and
-                        programming my way into the world of tech.
+                        My first day at school was at Lilliput Primary School. Who could of known I
+                        would end up here coding and programming my way into the world of tech.
                       </p>
+                      <img src={require('../../Images/school-me (1).jpg')} alt="school" />
                     </div>
                   </div>
                   <div class="container left">
                     <div class="content">
                       <h2>2002</h2>
                       <p>
-                        I went to my first ever football. This was my first love. However, being an
-                        Arsenal fan has definitely become more painful over the years. Hoping this
+                        I went to my first ever football match - Arsenal vs Southampton. Since my
+                        trip to this beautiful stadium, being an Arsenal fan has definitely become
+                        more and more painful over the years. I hope that being a fan of this club
                         won't be a dealbreaker!
                       </p>
+                      <img src={require('../../Images/highbury.jpg')} alt="highbury stadium" />
                     </div>
                   </div>
                   <div class="container right">
                     <div class="content">
-                      <h2>2002</h2>
+                      <h2>2010</h2>
                       <p>
-                        I went to my first ever football. This was my first love. However, being an
-                        Arsenal fan has definitely become more painful over the years. Hoping this
-                        won't be a dealbreaker!
+                        My first job was landed. I became a paperboy! Monday to Saturday at 6:30am I
+                        would make my way down to my local newsagents to collect my round and get
+                        underway. Wasn't the dream role - but that £25 a week went a long way back
+                        then.
                       </p>
+                      <img src={require('../../Images/paper.jpg')} alt="paper round" />
                     </div>
                   </div>
                   <div class="container left">
                     <div class="content">
                       <h2>2011</h2>
                       <p>
-                        I was (and still) obsessed with football growing up. Fortunately, I had the
+                        I was (and still am) obsessed with football. Fortunately, I had the
                         opportunity to play for Yeovil FC Academy. During this time I played against
-                        a number of academy teams. However, I didn't quite make the cut.
+                        a number of academy teams at the highest level. However, I didn't quite make
+                        the cut.
                       </p>
+                      <img src={require('../../Images/yeovil.png')} alt="yeovil FC" />
                     </div>
                   </div>
                   <div class="container right">
@@ -67,6 +75,7 @@ class PartThree extends Component {
                         went to Cardiff for the Olympic Games to watch GB take on South Korea.
                         Unfortunately they lost 5-4 on penalties.
                       </p>
+                      <img src={require('../../Images/gb (1).jpg')} alt="GCSE's" />
                     </div>
                   </div>
                   <div class="container left">
@@ -83,6 +92,7 @@ class PartThree extends Component {
                         look into these areas myself and my interest in the sector began to
                         increase.
                       </p>
+                      <img src={require('../../Images/ttr.png')} alt="ttr" />
                     </div>
                   </div>
                   <div class="container right">
@@ -96,6 +106,7 @@ class PartThree extends Component {
                         on what I wanted to do when I got back home - which is when I started
                         looking into roles in tech.
                       </p>
+                      <img src={require('../../Images/thailand.png')} alt="thailand" />
                     </div>
                   </div>
                   <div class="container left">
@@ -103,7 +114,7 @@ class PartThree extends Component {
                       <h2>2019</h2>
                       <p>
                         I started learning how to code. I became a regular at <b>CodeAcademy</b> and
-                        <b> StackOverFlow.</b> First of all, I started to learn HTML and CSS. I
+                        <b> Stack OverFlow.</b> First of all, I started to learn HTML and CSS. I
                         found it incredibly rewarding building something from nothing and having it
                         appear in front of me. I was creating a number of static web pages and
                         trialling different effects and animations that I could use for future
@@ -111,6 +122,7 @@ class PartThree extends Component {
                         become a Web Developer and get some professional training and
                         qualifications.
                       </p>
+                      <img src={require('../../Images/code-a.png')} alt="codeacademy" />
                     </div>
                   </div>
                   <div class="container right">
@@ -143,6 +155,7 @@ class PartThree extends Component {
                         be possible to learn as much as I did during this bootcamp and leave with
                         three fully functional projects.
                       </p>
+                      <img src={require('../../Images/certifcate.png')} alt="certificate" />
                     </div>
                   </div>
                   <div class="container left">

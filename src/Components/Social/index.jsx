@@ -14,7 +14,6 @@ const Social = () => {
           </div>
         </div>
         <div className="columns">
-          <p>Daniel Burton</p>
           <p>07956107973</p>
           <p>email@danburts.co.uk</p>
         </div>
