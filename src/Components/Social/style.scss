@@ -14,11 +14,16 @@
       font-size: 0.8rem;
       margin-left: 1rem;
       padding-right: 1rem;
-      border-right: 1px solid white;
+      // border-right: 1px solid white;
     }
     p:nth-child(2) {
       border-right: 0;
       padding-right: 0;
+    }
+    a {
+      padding-right: 1rem;
+      text-decoration: none;
+      color: white;
     }
   }
   img {
@@ -56,7 +61,7 @@
         margin-left: 1rem;
         font-size: 1rem;
         padding-right: 1rem;
-        border-right: 1px solid white;
+        // border-right: 1px solid white;
       }
       p:nth-child(3) {
         border-right: 0;

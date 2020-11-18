@@ -15,7 +15,9 @@ const Social = () => {
         </div>
         <div className="columns">
           <p>07956107973</p>
-          <p>email@danburts.co.uk</p>
+          <a href="mailto:email@address.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan">
+            <p>email@danburts.co.uk</p>
+          </a>
         </div>
         <div className="social-link">
           <a className="facebook icon" href="https://www.facebook.com/dan9b6">
