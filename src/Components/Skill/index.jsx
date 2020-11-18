@@ -22,7 +22,7 @@ function Skill() {
             permanent.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up" data-aos-delay="200">
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="100">
           <img className="sign" src={require('../../Images/excited.gif')} alt="me" />
           <h3>Enthusiasm...</h3>
           <p>
@@ -31,8 +31,8 @@ function Skill() {
             and enthusiastic to learn and improve.
           </p>
         </div>
-        <div className="skills-box" data-aos="fade-up" data-aos-delay="400">
-          <img className="sign" src={require('../../Images/sign.gif')} alt="me" />
+        <div className="skills-box" data-aos="fade-up" data-aos-delay="200">
+          <img className="sign" src={require('../../Images/bulb.gif')} alt="me" />
           <h3>Innovation</h3>
           <p>
             I hold a big desire to be at the forefront of innovation, which is one of the main
