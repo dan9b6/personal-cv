@@ -34,7 +34,6 @@ class PartTwo extends Component {
                 <img src={require('../../Images/mongo.png')} alt="mongodb" />
                 <img src={require('../../Images/github.png')} alt="github" />
                 <img src={require('../../Images/jquery2.png')} alt="jquery" />
-                <img src={require('../../Images/nodejs.png')} alt="node" />
               </div>
             </div>
             <div className="part-two-box">
