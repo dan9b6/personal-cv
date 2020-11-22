@@ -15,7 +15,7 @@ const Social = () => {
         </div>
         <div className="columns">
           <p>07956107973</p>
-          <a href="mailto:email@address.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan">
+          <a href="mailto:danbh7296@gmail.com?subject=I'm%20interested%20in%20hiring%20you!&body=Hello%20Dan">
             <p>email@danburts.co.uk</p>
           </a>
         </div>
